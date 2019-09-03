@@ -8,7 +8,7 @@ describe './bin/move executing a CLI Application' do
 
     board = get_variable_from_file("./bin/move", "board")
 
-    expect(board).to eq([" ", "X", " ", " ", " ", " ", " ", " ", " "])
+    expect(board).to eq([" ", " ", " ", " ", " ", " ", " ", " ", " "])
   end
 
   it 'prints "Welcome to Tic Tac Toe!"' do
